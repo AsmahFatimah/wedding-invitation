@@ -69,8 +69,13 @@ body{
     background-color: #FBF6E7;
 }
 .quranicVerse{
-  background: url(assets/bg.png),linear-gradient(to right, #06beb5c5, #48b1bfc9);
-  height: 92vh;
+  background: url(assets/verseBg.jpg),linear-gradient(to right, #1a1d1dc5, #48b1bfc9);
+  height: 90vh;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: 100% 100%; */
+  /* background-position: center; */
+  backface-visibility: 80%;
 }
 
 .textBox{
@@ -83,10 +88,25 @@ body{
   /* display: block; */
 }
 .bgDiv{
-  background: url(assets/bg.png);
-  height: 40vh;
-  background-attachment: fixed ;
+  background: url(assets/flowercta.png) ,linear-gradient(to right, #651812, #651812); 
+  height: 70vh;
+  /* background-attachment: fixed ; */
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: contain;
 
+}
+.ctaSection{
+  background-color: #651812;
+  
+
+
+}
+.counterSection{
+  background: url(./assets/bg2.png);
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 

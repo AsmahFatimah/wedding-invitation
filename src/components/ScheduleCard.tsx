@@ -3,7 +3,7 @@ import React from 'react'
 const ScheduleCard = () => {
   return (
     <>
-    <div className='container'>
+        <div className='container'>
         <h2>Schedule</h2>
     <h3>Vadiha and Safwan's Shaadi! | 19 Feb, 2:30 pm PST – 22 Feb, 11:00 pm PST All locations are in Lahore, Pak</h3>
     <div>
@@ -21,6 +21,8 @@ const ScheduleCard = () => {
         </div>
     </div>
     </div>
+    
+    
     
 
     </>

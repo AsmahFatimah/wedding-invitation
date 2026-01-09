@@ -11,7 +11,7 @@ interface Props{
 const DetailsSection = ({ details } : Props) => {
   return (
     <>
-    <div className="mainDiv d-flex justify-align-content-between align-align-items-start py-5 container">
+    <div className="mainDiv d-flex justify-align-content-between align-align-items-start flex-column flex-md-row py-5 container">
         <div className="leftDiv d-flex justify-content-center  flex-column align-self-start ">
                 <img src={butterfly} alt="" width={90} height={90} />
                 <h1>details</h1>
