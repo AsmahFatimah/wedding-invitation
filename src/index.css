@@ -1,8 +1,27 @@
+@font-face {
+  font-family: allura;
+  src: url(assets/fonts/Allura-Regular.ttf);
+}
+
+@font-face {
+  font-family: cormorant;
+  src: url(assets/fonts/CormorantGaramond-Regular.ttf);
+}
+
 body{
   background-color: #FBF6E7 !important;
+  font-family: cormorant !important;
+}
+.subHeading{
+  font-family: allura;
+  font-size: 2.6rem;
+}
+.heading{
+  font-size: 5rem;
 }
 .customNav{
-  background: url(assets/react.svg);
+  background: url(assets/925831ff856301f33b1ec660cc4ab92b.png);
+  background-position: center;
 }
 .heroSection{
   background: url(assets/bg.png);
@@ -69,4 +88,5 @@ body{
   background-attachment: fixed ;
 
 }
+
 
