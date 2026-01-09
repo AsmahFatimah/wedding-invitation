@@ -5,12 +5,18 @@ import DetailsSection from './components/DetailsSection'
 import Herosection from './components/Herosection'
 import Navbar from './components/navbar'
 import QuranicVerse from './components/QuranicVerse'
-import Test from './components/Test'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import Schedule from './pages/Schedule'
 
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='wedding-schedule' element={<Schedule></Schedule>}></Route>
+      </Routes>
+      {/* <Navbar></Navbar>
       <Herosection></Herosection>
       <DetailsSection details={[
         {
@@ -28,7 +34,8 @@ function App() {
       ]}></DetailsSection>
       <QuranicVerse></QuranicVerse>
       <CounterSection></CounterSection>
-      <CtaSection></CtaSection>
+      <CtaSection></CtaSection> */}
+
     </>
   )
 }
