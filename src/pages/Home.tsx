@@ -1,4 +1,4 @@
-import CounterSection from '../components/counterSection';
+import CounterSection from '../components/CounterSection';
 import CtaSection from '../components/CtaSection';
 import DetailsSection from '../components/DetailsSection';
 import Herosection from '../components/Herosection';
