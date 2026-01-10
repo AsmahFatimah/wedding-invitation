@@ -10,27 +10,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='wedding-schedule' element={<Schedule></Schedule>}></Route>
       </Routes>
-      {/* <Navbar></Navbar>
-      <Herosection></Herosection>
-      <DetailsSection details={[
-        {
-          title: 'barat',
-          event: '18 jan'
-        },
-        {
-          title: 'barat',
-          event: '18 jan'
-        },
-         {
-          title: 'barat',
-          event: '18 jan'
-        }
-      ]}></DetailsSection>
-      <QuranicVerse></QuranicVerse>
-      <CounterSection></CounterSection>
-      <CtaSection></CtaSection> */}
-
-    </>
+         </>
   )
 }
 
