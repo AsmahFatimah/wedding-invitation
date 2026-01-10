@@ -1,4 +1,3 @@
-import React from 'react'
 import CounterSection from '../components/counterSection';
 import CtaSection from '../components/CtaSection';
 import DetailsSection from '../components/DetailsSection';
