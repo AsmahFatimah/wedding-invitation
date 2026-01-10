@@ -1,6 +1,3 @@
-import React from "react";
-
-// Define types for the props react-countdown passes
 interface CountdownRendererProps {
   days: number;
   hours: number;
