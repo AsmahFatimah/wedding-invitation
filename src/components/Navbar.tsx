@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from '../assets/a3cc30217ece833438e78a00b74d1fe5.jpg'
 
 const Navbar = () => (
