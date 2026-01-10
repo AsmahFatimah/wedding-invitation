@@ -1,4 +1,3 @@
-import Couple from '../assets/couple.jpg'
 import Countdown from "react-countdown";
 import CountdownRenderer from './CountdownRenderer';
 
@@ -8,7 +7,6 @@ const CounterSection = () => {
     <div className='counterSection pt-5 px-5'>
    <div className='container d-flex justify-content-center align-items-center flex-column counterSectionTextBox'>
     <div>
-        {/* <img src={Couple} alt=""  width={200} height={300}/> */}
         <h1>Safwan and Vadiha</h1>
 
     </div>
