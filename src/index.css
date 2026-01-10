@@ -39,9 +39,13 @@ body{
   top: 0; /* keeps it fixed in viewport */
   /* height: 100vh; */
    /* full height */
-    flex: 0 0 50%;
-  
-  
+    flex: 0 0 50%;  
+}
+.leftDiv h1{
+  font-size: 4rem;
+}
+.leftDiv h3{
+  font-family: allura;
 }
 .rightDiv {
     position: relative;
@@ -50,15 +54,24 @@ body{
     /* height: 300px; */
     flex: 0 0 50%;
 }
+.rightDiv p{
+  font-size: 1.3rem;
+}
+.rightDiv{
+  width: 100%;
+}
+@media (min-width: 900px) {
+  
+}
 
 .customCard {
     position: sticky;
     top: 0; /* starts sticking at top */
     width: 100%;
-    height: 350px; /* fixed height for each card */
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    height: 450px; /* fixed height for each card */
+    /* border: 1px solid #ccc; */
+    border-radius: 0;
+    /* box-shadow: 0 5px 15px rgba(0,0,0,0.1); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,6 +80,10 @@ body{
     margin-bottom: 20px; /* spacing between cards */
     z-index: 10;
     background-color: #FBF6E7;
+    /* box-shadow: 0 10px 30px rgba(120, 100, 80, 0.12); */
+    box-shadow: 0 8px 25px rgba(255, 215, 130, 0.158);
+    border: 1px solid rgba(255, 215, 130, 0.212);
+
 }
 .quranicVerse{
   background: url(assets/verseBg.jpg),linear-gradient(to right, #1a1d1dc5, #48b1bfc9);
@@ -79,7 +96,8 @@ body{
 }
 
 .textBox{
-  background: #c05727;
+  /* background: #c05727; */
+  background: #FBF8F1;
 }
 .divider{
   width: 1px;
@@ -88,25 +106,76 @@ body{
   /* display: block; */
 }
 .bgDiv{
-  background: url(assets/flowercta.png) ,linear-gradient(to right, #651812, #651812); 
-  height: 70vh;
-  /* background-attachment: fixed ; */
+  background: url(assets/flowercta.png) ,linear-gradient(to right, #FFF1A8, #FFF1A8); 
+  height: 40vh;
+  background-attachment: fixed ;
   background-repeat: no-repeat;
   background-position: 0 50%;
   background-size: contain;
 
 }
+@media (min-width: 599px) {
+  .bgDiv{
+  height: 70vh;
+
+  }
+}
 .ctaSection{
-  background-color: #651812;
+  background-color: #FFF1A8;
   
 
 
 }
+.ctaSection h6{
+  font-family: allura;
+  font-size: 4rem;
+}
+.ctaSection .btn{
+  text-transform: capitalize;
+  /* font-size: 1.1rem; */
+  font-family: sans-serif;
+  color: #FFFfff;
+  width: 30%;
+  border-radius: 0;
+  padding: .9rem;
+  margin-bottom: 1rem;
+}
+.ctaSection .btn:nth-child(2){
+  background-color: #c4748b;
+
+}
+.ctaSection .btn:nth-child(3){
+  background-color: #7F9C8D;
+}
+.ctaSection .btn:nth-child(2):hover{
+  background-color: #aa6578 !important;
+  color: #FFFfff !important;
+}
+.ctaSection .btn:nth-child(3):hover{
+  background-color: #6c8679;
+  color: #FFFfff;
+}
 .counterSection{
   background: url(./assets/bg2.png);
   background-position: bottom right;
-  background-size: contain;
+  /* background-position: 80% 0; */
+  background-size: 50%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
+@media(min-width:900px){
+  .counterSection{
+    background-attachment: scroll;
+    background-size: contain;
+
+  }
+}
+
+.footer{
+  background: #c4748b;
+  color: #050505;
+}
+
 
 

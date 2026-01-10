@@ -15,7 +15,7 @@ const SaveToCalenderBtn = ({ title, details, location, startDate, endDate }: Pro
       href={googleCalendarUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className='nav-link'
+      className='nav-link btn'
     >
       {/* <button className='btn' style={{ padding: "10px 20px", fontSize: "1rem", cursor: "pointer" }}> */}
         Save to Google Calendar
