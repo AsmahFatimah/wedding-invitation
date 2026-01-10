@@ -1,7 +1,5 @@
-import React from 'react'
 import SaveToCalenderBtn from './SaveToCalenderBtn'
 import { Link } from 'react-router-dom'
-import Schedule from '../pages/Schedule'
 
 const CtaSection = () => {
   return (
