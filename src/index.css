@@ -184,5 +184,21 @@ body{
   color: #050505;
 }
 
+.cardDetail{
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #2b1d0eef;
+}
+.cardDetail p{
+  margin-bottom: .1rem;
+}
+.cardDetail .border{
+  border-color: #bbbbbb2f !important;
+  
+}
+.scheduleCard h2{
+  font-size: 4rem;
+}
+
 
 
