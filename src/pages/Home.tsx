@@ -36,13 +36,13 @@ const Home = () => {
         },
         {
           title: 'Shendi',
-          event: '28 jan',
+          event: '30 jan',
           imgUrl: img1
 
         },
         {
           title: 'Valima',
-          event: '28 jan',
+          event: '31 jan',
           imgUrl: img2
 
         }
