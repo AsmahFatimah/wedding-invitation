@@ -7,7 +7,7 @@ const CounterSection = () => {
     <div className='counterSection pt-5 px-5'>
    <div className='container d-flex justify-content-center align-items-center flex-column counterSectionTextBox'>
     <div>
-        <h1>Safwan and Vadiha</h1>
+        <h1>Safwan and Wadeea</h1>
 
     </div>
     <div className='divider'></div>
